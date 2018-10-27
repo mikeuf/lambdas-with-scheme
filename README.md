@@ -26,6 +26,7 @@ Another example:
 f(x, y) = x² + y²  
 
 Is represented in Scheme as:  
-((lambda (x y) (+ (* x x)(* y y)))5) ⇒ 50  
+((lambda (x y) (+ (* x x)(* y y)))5 5) ⇒ 50  
+
 
 

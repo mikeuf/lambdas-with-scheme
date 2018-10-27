@@ -22,4 +22,10 @@ If we provide 5 as an input value, we can evaluate this as:
 
 Notice that the addition operator ("+") appears before the operands in the list.  
 
+Another example:  
+f(x, y) = x² + y²  
+
+Is represented in Scheme as:  
+((lambda (x y) (+ (* x x)(* y y)))5) ⇒ 50  
+
 

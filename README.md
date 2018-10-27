@@ -1,6 +1,8 @@
 # Lambdas With Scheme
 
-Scheme is a Lisp-based language that was developed at MIT. It's useful for "functional programming" as opposed to the more-familiar "imperative programming."
+Scheme is a Lisp-based language that was developed at MIT. It's useful for "functional programming" as opposed to the more-familiar "imperative programming."  
+
+**Note:**  An online Scheme interpreter is available here: (https://repl.it/@mikeuf/WillingScratchyDecompilers). Additionally, you can download Edwin, a Scheme text editor from MIT here: (https://www.gnu.org/software/mit-scheme/).
 
 ## About Lambdas (λ)
 A lambda (λ) is a common notation that is used to define functions, similar to the "f(x)" notation from algebra. It was originally popularized by Alonzo Church who used it to develop [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus).

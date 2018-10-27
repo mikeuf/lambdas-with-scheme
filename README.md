@@ -14,6 +14,7 @@ If we let x = 5, then f(x) = 10.
 We can represent the same function with a λ, leaving us with:
 λx.x + 5
 
-Lambda expressions are typically wrapped in parenthesis:
-(λx.x + 5)
+In Scheme, this can be represented as:
+`(lambda (x) (+ x 5))`
 
+Notice that the addition operator ("+") appears before the operands in the list.

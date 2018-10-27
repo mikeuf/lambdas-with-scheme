@@ -17,7 +17,7 @@ We can represent the same function with a λ, leaving us with:
 In Scheme, this can be represented as:  
 `(lambda (x) (+ x 5))`  
 
-If we provide 5 as an input value, we can evaluate this as:
+If we provide 5 as an input value, we can evaluate this as:  
 `((lambda (x) (+ x 5))5) ⇒ 10`  
 
 Notice that the addition operator ("+") appears before the operands in the list.  

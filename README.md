@@ -13,6 +13,7 @@ If we let x = 5, then f(x) = 10.
 We can represent the same function with a λ, leaving us with:  
 λx.x + 5  
 
+### Lambdas in Scheme
 In Scheme, this can be represented as:  
 (lambda (x) (+ x 5))  
 

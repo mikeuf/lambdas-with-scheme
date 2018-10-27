@@ -2,6 +2,9 @@
 
 Scheme is a Lisp-based language that was developed at MIT. It's useful for "functional programming" as opposed to the more-familiar "imperative programming."  
 
+An introduction to Scheme is available from Wikibooks:  
+https://en.wikibooks.org/wiki/Scheme_Programming
+
 An online Scheme interpreter is available here:  
 https://repl.it/@mikeuf/WillingScratchyDecompilers  
 

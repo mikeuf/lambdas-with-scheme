@@ -42,6 +42,7 @@ This program was written in BiwaScheme, a dialect of Scheme that was created wit
 
 ### Typical Output 
 
+```
 *** Part 1 - Convert Fahrenheit to Celsius ***
 Enter a temperature in Fahrenheit:  72
 22.22222222222222 is the same temperature in celsius, with super precision!
@@ -86,7 +87,7 @@ Here is the portion of the list that begins with the number 5?
 
 Does this list contain the number 42?
 #f
-   
+``` 
 
 
 

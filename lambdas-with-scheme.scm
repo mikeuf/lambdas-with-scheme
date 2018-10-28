@@ -1,8 +1,10 @@
 ; @filename: scheme-with-lambdas.scm
+;
 ; @description: This is an exercise in using lambdas as a method of defining functions.
-;               it was written on a BiwaScheme interpreter, which is dialect of Scheme
+;               It was written on a BiwaScheme interpreter, which is dialect of Scheme
 ;               that was written in JavaScript and can be run from a browser.
-;               
+;
+; @author: Mike Black
 
 ; Example of a non-recursive function
 (define fahrenheitToCelsius
@@ -67,8 +69,7 @@
 (display "Enter a number:")
 (newline)
 (display (fibonacci(read)))
-(newline)
-(display "is the corresponding integer in the Fibonacci sequence.")
+(display " is the corresponding integer in the Fibonacci sequence.")
 (newline)
 (newline)
 (newline)
@@ -128,7 +129,4 @@
 (newline)
 (display (member 42 numList))
 (newline)
-
-
-
 

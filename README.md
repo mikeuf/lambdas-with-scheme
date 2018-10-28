@@ -1,46 +1,22 @@
 # Lambdas With Scheme
+This is an exercise in using lambdas as a method of defining functions. It was written on a BiwaScheme interpreter, which is dialect of Scheme that was written in JavaScript and can be run from a browser.
 
-Scheme is a Lisp-based language that was developed at MIT. It's useful for "functional programming" as opposed to the more-familiar "imperative programming."  
 
-An introduction to Scheme is available from Wikibooks:  
-https://en.wikibooks.org/wiki/Scheme_Programming
+## How to Run this Program
+This program was written in BiwaScheme, a dialect of Scheme that was created with JavaScript. To run it, you'll need access to a BiwaScheme interpreter.  
 
-An online Scheme interpreter is available here:  
+Conveniently, an online BiwaScheme interpreter is available here:  
 https://repl.it/@mikeuf/WillingScratchyDecompilers  
 
-Additionally, you can download Edwin, a Scheme text editor from MIT here:  
-https://www.gnu.org/software/mit-scheme/  
+Simply copy and paste the code into the interpeter and click the "run" button.  
 
-## About Lambdas (λ)
-A lambda (λ) is a common notation that is used to define functions, similar to the "f(x)" notation from algebra. It was originally popularized by Alonzo Church who used it to develop [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus).
+Alternatively, you can download Edwin, a Scheme text editor from MIT here:  
+https://www.gnu.org/software/mit-scheme/   
 
-In alegbra, we could define f(x) as:  
-f(x) = x + 5  
+**Note:** The code in this program may require light modification before it can execute within a "pure" Scheme environment. In particular, the use of "mod" may need to be changed to "remainder" or "Modulo" in the greatestCommonFactor function.  
 
-If we let x = 5, then f(x) = 10.  
 
-We can represent the same function with a λ, leaving us with:  
-λx.x + 5  
-
-### Lambdas in Scheme
-In Scheme, this can be represented as:  
-(lambda (x) (+ x 5))  
-
-If we provide 5 as an input value, we can evaluate this as:  
-((lambda (x) (+ x 5))5) ⇒ 10  
-
-Notice that the addition operator ("+") appears before the operands in the list.  
-
-Another example:  
-f(x, y) = x² + y²  
-
-Is represented in Scheme as:  
-((lambda (x y) (+ (* x x)(* y y)))5 5) ⇒ 50  
-
-## How to Run the Program
-This program was written in BiwaScheme, a dialect of Scheme that was created with JavaScript.
-
-### Typical Output 
+## Typical Output 
 
 ```
 *** Part 1 - Convert Fahrenheit to Celsius ***
@@ -93,6 +69,40 @@ So long, and thanks for all the numbers!
 ~FIN~
 ``` 
 
+
+## About Scheme
+Scheme is a Lisp-based language that was developed at MIT. It's useful for "functional programming" as opposed to the more-familiar "imperative programming."  
+
+An introduction to Scheme is available from Wikibooks:  
+https://en.wikibooks.org/wiki/Scheme_Programming
+
+
+## About Lambdas (λ)
+A lambda (λ) is a common notation that is used to define functions, similar to the "f(x)" notation from algebra. It was originally popularized by Alonzo Church who used it to develop [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus).
+
+In alegbra, we could define f(x) as:  
+f(x) = x + 5  
+
+If we let x = 5, then f(x) = 10.  
+
+We can represent the same function with a λ, leaving us with:  
+λx.x + 5  
+
+
+### Lambdas in Scheme
+In Scheme, this can be represented as:  
+(lambda (x) (+ x 5))  
+
+If we provide 5 as an input value, we can evaluate this as:  
+((lambda (x) (+ x 5))5) ⇒ 10  
+
+Notice that the addition operator ("+") appears before the operands in the list.  
+
+Another example:  
+f(x, y) = x² + y²  
+
+Is represented in Scheme as:  
+((lambda (x y) (+ (* x x)(* y y)))5 5) ⇒ 50  
 
 
 

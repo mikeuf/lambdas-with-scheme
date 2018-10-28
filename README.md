@@ -4,7 +4,7 @@ This is an exercise in using lambdas as a method of defining functions. It was w
 ## Table of Contents
 **[How to Run this Program](#how-to-run-this-program)**  
 **[Typical Output](#typical-output)**  
-**[About Scheme](#about-scheme)**
+**[About Scheme](#about-scheme)**  
 **[About Lambdas (λ)](#about-lambdas-(λ))**
 
 ## How to Run this Program  

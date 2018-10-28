@@ -81,9 +81,6 @@ Scheme is a Lisp-based language that was developed at MIT. It's useful for "func
 An introduction to Scheme is available from Wikibooks:  
 https://en.wikibooks.org/wiki/Scheme_Programming
 
-Another good overview is available from Florida State University, here:
-http://www.cs.fsu.edu/~lacher/courses/COP4020/lectures/Functional.pdf
-
 
 ## About Lambdas (λ)
 A lambda (λ) is a common notation that is used to define functions, similar to the "f(x)" notation from algebra. It was originally popularized by Alonzo Church who used it to develop [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus).

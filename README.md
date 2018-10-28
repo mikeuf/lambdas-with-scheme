@@ -2,8 +2,9 @@
 This is an exercise in using lambdas as a method of defining functions. It was written on a BiwaScheme interpreter, which is dialect of Scheme that was written in JavaScript and can be run from a browser.
 
 ## Table of Contents
-**[How to Run this Program](##how-to-run-this-program)**<br>
-
+**[How to Run this Program](#how-to-run-this-program)**  
+**[Typical Output](#typical-output)**  
+**[About Scheme](#about-scheme)**
 
 ## How to Run this Program  
 This program was written in BiwaScheme, a dialect of Scheme that was created with JavaScript. To run it, you'll need access to a BiwaScheme interpreter.  

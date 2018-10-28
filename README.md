@@ -59,7 +59,7 @@ Enter two numbers and I will return their greatest common factor/divisor)
 First number:  65
 Second number:  30
 
-5
+5 is the greatest common factor/divisor.
 
 *** Part 4 - List Manipulation ***
 (This portion doesn't take user input)

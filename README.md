@@ -5,6 +5,7 @@ This is an exercise in using lambdas as a method of defining functions. It was w
 **[How to Run this Program](#how-to-run-this-program)**  
 **[Typical Output](#typical-output)**  
 **[About Scheme](#about-scheme)**
+**[About Lambdas (λ)](#about-lambdas-(λ))**
 
 ## How to Run this Program  
 This program was written in BiwaScheme, a dialect of Scheme that was created with JavaScript. To run it, you'll need access to a BiwaScheme interpreter.  

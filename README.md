@@ -13,7 +13,7 @@ Simply copy and paste the code into the interpeter and click the "run" button.
 Alternatively, you can download Edwin, a Scheme text editor from MIT here:  
 https://www.gnu.org/software/mit-scheme/   
 
-**Note:** The code in this program may require light modification before it can execute within a "pure" Scheme environment. In particular, the use of "mod" may need to be changed to "remainder" or "Modulo" in the greatestCommonFactor function.  
+**Note:** The code in this program may require light modification before it can execute within a "vanilla" Scheme environment. In particular, the use of "mod" may need to be changed to "remainder" or "Modulo" in the greatestCommonFactor function.  
 
 
 ## Typical Output 

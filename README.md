@@ -61,6 +61,7 @@ Second number:  30
 
 5 is the greatest common factor/divisor.
 
+
 *** Part 4 - List Manipulation ***
 (This portion doesn't take user input)
 
@@ -87,6 +88,9 @@ Here is the portion of the list that begins with the number 5?
 
 Does this list contain the number 42?
 #f
+
+So long, and thanks for all the numbers!
+~FIN~
 ``` 
 
 

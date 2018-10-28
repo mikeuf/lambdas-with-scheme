@@ -1,10 +1,8 @@
 ; @filename: scheme-with-lambdas.scm
-;
 ; @description: This is an exercise in using lambdas as a method of defining functions.
-;               It was written on a BiwaScheme interpreter, which is dialect of Scheme
+;               it was written on a BiwaScheme interpreter, which is dialect of Scheme
 ;               that was written in JavaScript and can be run from a browser.
-;
-; @author: Mike Black
+;               
 
 ; Example of a non-recursive function
 (define fahrenheitToCelsius
@@ -83,6 +81,8 @@
 (define secondNum (read))
 (newline)
 (display (greatestCommonFactor firstNum secondNum))
+(display " is the greatest common factor/divisor.")
+(newline)
 (newline)
 (newline)
 (display "*** Part 4 - List Manipulation ***")
@@ -129,4 +129,8 @@
 (newline)
 (display (member 42 numList))
 (newline)
-
+(newline)
+(display "So long, and thanks for all the numbers!")
+(newline)
+(display "~FIN~")
+(newline)

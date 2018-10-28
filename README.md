@@ -1,4 +1,4 @@
-# Lambdas With Scheme
+# Lambdas with Scheme
 This is an exercise in using lambdas as a method of defining functions. It was written on a BiwaScheme interpreter, which is dialect of Scheme that was written in JavaScript and can be run from a browser.
 
 ## Table of Contents

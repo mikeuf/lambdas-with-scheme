@@ -10,7 +10,7 @@ This is an exercise in using lambdas as a method of defining functions. It was w
 ## How to Run this Program  
 This program was written in BiwaScheme, a dialect of Scheme that was created with JavaScript. To run it, you'll need access to a BiwaScheme interpreter.  
 
-Conveniently, an online BiwaScheme interpreter is available here:  
+An online BiwaScheme interpreter should be available here:  
 https://repl.it/@mikeuf/WillingScratchyDecompilers  
 
 Simply copy and paste the code into the interpeter and click the "run" button.  

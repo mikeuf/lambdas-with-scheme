@@ -1,29 +1,38 @@
 ; @filename: scheme-with-lambdas.scm
-; @description: This is an exercise in using lambdas as a method of defining functions.
-;               it was written on a BiwaScheme interpreter, which is dialect of Scheme
-;               that was written in JavaScript and can be run from a browser.
-;               
+; @description: This is an exercise in using lambdas as a method of 
+; defining functions. It was written on a BiwaScheme interpreter, which 
+; is dialect of Scheme that was written in JavaScript and 
+; can be run from a browser.               
 
 ; Example of a non-recursive function
 (define fahrenheitToCelsius
   (lambda (fahrenheit)
     (* (- fahrenheit 32) (/ 5 9) )))
 
-; Example of a recursive unary function
-; This function is not memoized, so large numbers may take some time to calculate.
-(define fibonacci 
-  (lambda (x)
-    (if (< x 2) x ;; Base case: if x < 2, just return x
-      (+ (fibonacci (- x 1))    
-        (fibonacci (- x 2))))))
+; Example of a unary function that uses tail recursion 
+; to drastically reduce the runtime
+; the first (fibonacci) function is a stub that takes
+; the user's number and then sends passes it to the
+; real function that performs the recursion
+; I've tested it as high as 1000, which returns 4.346655768693743e+208
+; After that, you may start getting "+inf" as your return
+(define (fibonacci x)
+  (fibonacciRecursor 1 0 x)) ; 1 and 0 represent the base case values
+
+; This is where the actual calculation takes place
+(define fibonacciRecursor
+  (lambda (n m count)
+    (if (= count 0) m ; base case
+      (fibonacciRecursor (+ n m) n (- count 1)))))
 
 ; Example of a recursive binary function 
+; At the time of this writing, BiwaScheme does not seem to have 
+; the usual (remainder) or (modulo) functions. 
+; Instead, it has (mod).
 (define greatestCommonFactor
   (lambda (m n)
     (if (<= n 0) m 
-      (greatestCommonFactor n (mod m n))))); BiwaScheme does not seem to have the 
-                                           ; usual "remainder" or "modulo"
-                                           ; functions. Instead, they have "mod."
+      (greatestCommonFactor n (mod m n)))))
 
 ; Combines two lists
 ; The function uses cdr (tail) to gradually whittle down the first list
@@ -42,7 +51,6 @@
   (lambda (sentence)
   (concatenateLists '(the malevolent malingering manatee) 
     (member (car jumped) sentence))))
-
 
 ; Lists that will be used in the "List Manipulation" portion
 ; The single-word lists seem to be needed since Scheme prefers

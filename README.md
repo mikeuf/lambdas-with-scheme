@@ -101,7 +101,7 @@ In Scheme, this can be represented as:
 If we provide 5 as an input value, we can evaluate this as:  
 ((lambda (x) (+ x 5))5) ⇒ 10  
 
-Notice that the addition operator ("+") appears before the operands in the list.  
+Notice that the addition operator ("+") appears before the operands in the list. This is because the arithmetic operators are functions, which take the form of "(functionName args)."
 
 Another example:  
 f(x, y) = x² + y²  
